@@ -1,5 +1,13 @@
+body {
+  background-color: lavender;
+}
+
 h1 {
-  color: rgb(131, 131, 203);
+  color: rgb(113, 113, 212);
+}
+
+h2 {
+  color: rgb(73, 73, 208);
 }
 
 .photo {

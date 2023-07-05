@@ -1,7 +1,15 @@
-$primary_color: rgb(131, 131, 203);
+$primary_color: rgb(113, 113, 212);
+$secondary_color: rgb(73, 73, 208);
 
+body {
+    background-color: lavender;
+}
 h1 {
-    color: $primary_color
+    color: $primary_color;
+}
+
+h2 {
+    color: $secondary_color;
 }
 
 .photo {
