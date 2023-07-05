@@ -1,5 +1,11 @@
-$primary_color: lavender;
+$primary_color: rgb(131, 131, 203);
 
 h1 {
     color: $primary_color
+}
+
+.photo {
+    border-radius: 40px;
+    padding: 20px;
+    height: 200px;
 }

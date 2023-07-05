@@ -1,5 +1,11 @@
 h1 {
-  color: lavender;
+  color: rgb(131, 131, 203);
+}
+
+.photo {
+  border-radius: 40px;
+  padding: 20px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
