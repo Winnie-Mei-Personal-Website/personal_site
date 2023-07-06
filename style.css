@@ -14,6 +14,7 @@ h2 {
 }
 
 .photo {
+  display: inline;
   border-radius: 40px;
   padding: 20px;
   height: 400px;
@@ -22,9 +23,11 @@ h2 {
 .header {
     font-size: 30px;
     color: #FFFFFF;
-    position: fixed;
+    position: absolute;
     height: 100px;
     width: 100%;
     display: inline;
     text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
    }
