@@ -14,8 +14,8 @@ h2 {
 .photo {
     display: inline-block;
     border-radius: 40px;
-    padding: 20px;
     height: 400px;
+    padding: 20px 20px 20px 20px;
 }
 
 .header {
@@ -54,4 +54,12 @@ button {
 
 button:hover {
     background-color: pink;
+}
+
+.self-description {
+    height:100%;
+    width:300px;
+    position:relative;
+    bottom: 150px;
+    left: 50px;
 }
