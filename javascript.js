@@ -1,1 +1,1 @@
-// alert("Welcome to Winnie's Page <3")
+alert("Welcome to Winnie's Page <3")

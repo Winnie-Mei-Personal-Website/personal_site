@@ -1,1 +1,1 @@
-# Creating a personal website to showcase my projects.
+# Creating a personal website to showcase my projects :)
