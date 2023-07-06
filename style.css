@@ -5,16 +5,16 @@ body {
 
 h1 {
   color: rgb(113, 113, 212);
-  display: inline;
+  display: inline-block;
 }
 
 h2 {
   color: rgb(73, 73, 208);
-  display: inline;
+  display: inline-block;
 }
 
 .photo {
-  display: inline;
+  display: inline-block;
   border-radius: 40px;
   padding: 20px;
   height: 400px;
@@ -29,5 +29,4 @@ h2 {
     text-align: center;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
-    border: 1px solid red;
    }
