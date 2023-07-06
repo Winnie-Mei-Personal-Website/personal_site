@@ -5,16 +5,16 @@ body {
 
 h1 {
   color: rgb(113, 113, 212);
-  display: inline-block;
+  display: inline;
 }
 
 h2 {
   color: rgb(73, 73, 208);
-  display: inline-block;
+  display: inline;
 }
 
 .photo {
-  display: inline-block;
+  display: inline;
   border-radius: 40px;
   padding: 20px;
   height: 400px;
@@ -23,11 +23,11 @@ h2 {
 .header {
     font-size: 30px;
     color: #FFFFFF;
-    position: absolute;
     height: 100px;
     width: 100%;
     display: inline;
     text-align: center;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
+    border: 1px solid red;
    }
