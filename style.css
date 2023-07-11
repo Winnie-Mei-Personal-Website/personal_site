@@ -52,13 +52,14 @@ section {
     p {
         align-content: center;
         margin: 2% 2% 2% 2%;
+        height:fit-content;
     }
     form {
         box-sizing: content-box;
         width: 100%;
         align-content: center;
         padding: 2% 2% 2% 2%;
-        overflow:hidden;
+        height:fit-content
     }
     h1 {
         font-size: 100%;
