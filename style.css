@@ -36,7 +36,7 @@ section {
     align-items: center;
     font-size: 1rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 844px) {
     .CSS-flex-container{
         height:fit-content;
     }
@@ -44,7 +44,8 @@ section {
         font-size: 100%;
     }
     section {
-        width: 100vw;
+        box-sizing: content-box;
+        width: 100%;
         font-size: 100%;
         height: fit-content;
     }
@@ -53,7 +54,8 @@ section {
         margin: 2% 2% 2% 2%;
     }
     form {
-        width: 100vw;
+        box-sizing: content-box;
+        width: 100%;
         align-content: center;
         padding: 2% 2% 2% 2%;
         overflow:hidden;
