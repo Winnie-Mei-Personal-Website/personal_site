@@ -30,12 +30,22 @@ a {
     text-decoration: none;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+}
 @media (max-width: 768px) {
     .CSS-flex-container{
         height:fit-content;
     }
     a {
         font-size: 80%;
+    }
+    section {
+        width: 100vw;
+        font-size: 70%;
     }
 }
 
@@ -76,7 +86,6 @@ button:hover {
 }
 
 .self-description {
-    height:50vw;
     width:50vw;
     position:relative;
 }
