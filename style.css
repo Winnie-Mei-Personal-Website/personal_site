@@ -27,15 +27,15 @@ a {
     padding: .8vw;
     color:lavenderblush;
     font-size: 3.5vh;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {
     .CSS-flex-container{
-    margin: 0 auto;
-    padding: 0 auto;
+        height:fit-content;
     }
     a {
-        font: size 10%;
+        font-size: 80%;
     }
 }
 
@@ -53,7 +53,6 @@ h2 {
     height: 400px;
     padding: 20px 20px 20px 20px;
 }
-
 
 /* #myname {
     color:lavenderblush;
