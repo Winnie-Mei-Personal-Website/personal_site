@@ -6,12 +6,16 @@ body {
 .CSS-flex-container{
     display: flex;
     background-color:rgb(125, 125, 191);
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: none;
+    margin: none;
+    overflow: hidden;
   }
   
   .CSS-flex-container > li {
     background-color: rgb(125, 125, 191);
-    margin: 30vw;
-    padding: 300v;
     font-size: 25rem;
   }
   
@@ -55,8 +59,8 @@ button:hover {
 }
 
 .self-description {
-    height:100%;
-    width:300px;
+    height:50vw%;
+    width:50vw;
     position:relative;
     bottom: 150px;
     left: 50px;
