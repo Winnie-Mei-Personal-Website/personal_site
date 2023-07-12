@@ -65,17 +65,23 @@ section {
         width: 100%;
         align-content: center;
         height: fit-content;
-        color: lavender;
     }
     
-    label {
-        color: rgb(113, 113, 212);
-    }
+}
 
-    input {
-        border-radius: 20px;
-        border-color:rgb(113, 113, 212)
-    }
+textarea, input {
+    border-radius: 5px;
+}
+
+input [type=submit] {
+    border-radius: 20px;
+    background-color: lavenderblush;
+    border-color:rgb(113, 113, 212);
+}
+
+input [type=submit]:hover {
+    background-color: purple;
+}
 
     h1 {
         display: flex;
