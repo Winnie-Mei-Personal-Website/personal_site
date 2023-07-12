@@ -5,28 +5,28 @@ body {
 }
 
 
-.CSS-flex-container{
+.CSS-flex-container {
     display: flex;
-    background-color:rgb(125, 125, 191);
+    background-color: rgb(125, 125, 191);
     width: 100%;
     height: 15vh;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     overflow: hidden;
-  }
-  
-  .CSS-flex-container > li {
+}
+
+.CSS-flex-container>li {
     background-color: rgb(125, 125, 191);
-  }
-  
-  ul li {
+}
+
+ul li {
     display: inline-block;
 }
 
 a {
     padding: .8vw;
-    color:lavenderblush;
+    color: lavenderblush;
     font-size: 3.5vh;
     text-decoration: none;
 }
@@ -37,34 +37,55 @@ section {
     align-items: center;
     font-size: 1rem;
 }
+
 @media (max-width: 844px) {
-    .CSS-flex-container{
-        height:fit-content;
+    .CSS-flex-container {
+        height: fit-content;
     }
+
     a {
         font-size: 100%;
     }
+
     section {
         box-sizing: content-box;
         width: 100%;
         font-size: 100%;
         height: fit-content;
     }
+
     p {
         align-content: center;
         margin: 2% 2% 2% 2%;
-        height:fit-content;
+        height: fit-content;
     }
+
     .formsetting {
         box-sizing: content-box;
         width: 100%;
         align-content: center;
-        height:fit-content;
+        height: fit-content;
+        color: lavender;
     }
+    
+    label {
+        color: rgb(113, 113, 212);
+    }
+
+    input {
+        border-radius: 20px;
+        border-color:rgb(113, 113, 212)
+    }
+
     h1 {
-        font-size: 100%;
+        display: flex;
+        color: rgb(113, 113, 212);
         width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 2%;
     }
+
     h2 {
         font-size: 100%;
         display: 100%;
@@ -72,7 +93,7 @@ section {
 }
 
 h1 {
-    display:flex;
+    display: flex;
     color: rgb(113, 113, 212);
     width: 50%;
     align-items: center;
@@ -114,8 +135,8 @@ button:hover {
 }
 
 .self-description {
-    width:50vw;
-    position:relative;
+    width: 50vw;
+    position: relative;
 }
 
 
