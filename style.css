@@ -55,12 +55,11 @@ section {
         margin: 2% 2% 2% 2%;
         height:fit-content;
     }
-    form {
+    .formsetting {
         box-sizing: content-box;
         width: 100%;
         align-content: center;
-        padding: 2% 2% 2% 2%;
-        height:fit-content
+        height:fit-content;
     }
     h1 {
         font-size: 100%;
