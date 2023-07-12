@@ -66,37 +66,37 @@ section {
         align-content: center;
         height: fit-content;
     }
-    
-}
-
-textarea, input {
-    border-radius: 5px;
-}
-
-input [type=submit] {
-    border-radius: 20px;
-    background-color: lavenderblush;
-    border-color:rgb(113, 113, 212);
-}
-
-input [type=submit]:hover {
-    background-color: purple;
-}
 
     h1 {
-        display: flex;
         color: rgb(113, 113, 212);
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        margin: 2%;
     }
 
     h2 {
-        font-size: 100%;
-        display: 100%;
+        display: flex;
+        color: rgb(73, 73, 208);
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+        width: 90%;
     }
 }
+
+textarea {
+    border-radius: 5px;
+}
+
+.submitbutton {
+    border-radius: 20px;
+    background-color: lavenderblush;
+    border-color: rgb(113, 113, 212);
+    height: 2rem;
+}
+
+.submitbutton:hover {
+    background-color: rgb(113, 113, 212);
+    color: white;
+}
+
 
 h1 {
     display: flex;
@@ -108,8 +108,11 @@ h1 {
 }
 
 h2 {
+    display: flex;
     color: rgb(73, 73, 208);
     margin: 2%;
+    align-items: center;
+    justify-content: center;
 }
 
 .photo {
